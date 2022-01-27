@@ -3,6 +3,7 @@
   --black: #1c1e18;
   --white: #c5e5ec;
   --gray: #97b0bf;
+  --gray-low-op: hsla(203, 21%, 75%, 0.3);
   --red: #b97c85;
   --green: #3dadb7;
 }
@@ -13,6 +14,9 @@
 }
 .bg-gray {
   background-color: var(--gray);
+}
+.bg-gray-200 {
+  background-color: var(--gray-low-op);
 }
 .bg-white {
   background-color: var(--white);
@@ -42,4 +46,8 @@
 /* Layout Utilities */
 .full-height {
   height: 100vh;
+}
+
+.border-radius-3 {
+  border-radius: 3px;
 }

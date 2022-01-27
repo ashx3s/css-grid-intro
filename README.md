@@ -33,3 +33,9 @@
 ## Design Notes
 
 - Color Scheme
+
+---
+
+## Attributions
+
+-

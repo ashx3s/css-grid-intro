@@ -6,6 +6,10 @@ main {
 }
 
 header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   text-align: center;
   margin-bottom: 10px;
 }
@@ -19,7 +23,10 @@ img {
   width: 100%;
   height: auto;
 }
-
+.header-wrapper {
+  max-width: 50ch;
+  padding: 4rem 2rem;
+}
 .content-section {
   width: 50%;
 }
@@ -71,4 +78,6 @@ img {
 
 .bg-aurora-image {
   background-image: url('/assets/images/frans-aurora.jpg');
+  background-position: center;
+  background-size: cover;
 }
