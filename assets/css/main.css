@@ -7,25 +7,53 @@ main {
 
 header {
   text-align: center;
+  margin-bottom: 10px;
 }
 
+section {
+  margin: 2rem 0;
+  width: 100%;
+}
+.content-section {
+  width: 50%;
+}
 /* Grid Containers */
 
-.grid-container {
+.static-grid-container {
   display: grid;
-  grid-template-columns: repeat(3, minmax(100px, 200px));
+  grid-template-columns: repeat(3, minmax(180px, 200px));
+  justify-content: center;
   gap: 20px;
 }
 
-/* Grid Items */
-.box {
+.responsive-grid-container {
   display: grid;
-  align-items: center;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  justify-content: center;
   justify-items: center;
+  gap: 1rem;
+}
+
+/* Grid Items */
+
+/* Use with auto-fit grid */
+.static-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  height: 200px;
+  width: 200px;
+}
+/* use with static grid */
+.flexible-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 
   height: 200px;
   max-width: 200px;
 }
-.grid-container header {
+.static-grid-container header {
   grid-column: 1 / -1;
 }
