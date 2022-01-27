@@ -5,3 +5,41 @@
   --red: #b98c85;
   --green: #4dadb7;
 }
+
+/* Shapes */
+.box {
+  height: 200px;
+  width: 200px;
+}
+
+/* color utilities */
+.bg-black {
+  background-color: var(--black);
+}
+.bg-gray {
+  background-color: var(--gray);
+}
+.bg-white {
+  background-color: var(--white);
+}
+.bg-red {
+  background-color: var(--red);
+}
+.bg-green {
+  background-color: var(--green);
+}
+.black {
+  color: var(--black);
+}
+.gray {
+  color: var(--gray);
+}
+.white {
+  color: var(--white);
+}
+.red {
+  color: var(--red);
+}
+.green {
+  color: var(--green);
+}
